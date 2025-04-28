@@ -1,0 +1,88 @@
+body {
+  color: white;
+  background-color: darkgreen;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  align-items: center;
+  padding: 16px;
+}
+
+a {
+  color: yellow;
+  text-decoration: none;
+}
+
+header img {
+  width: 250px;
+  height: 250px;
+  border-radius: 20%;
+  border: 10px solid #5bbe42;
+}
+
+.center {
+  text-align: center;
+}
+
+H1 {
+  color: white;
+  }
+
+footer img {
+  width: 40px;
+  height: 40px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+}
+
+footer a {
+  margin: 20px;
+  text-align: center;
+}
+
+footer p {
+  margin-top: 2px;
+}
+
+.container {
+  padding: 0px 50px;
+}
+
+nav a:hover {
+  color: white;
+}
+
+.btn {
+  padding: 10px 12px;
+  width: 50px;
+  color: #fff;
+  background: #209915;
+  border: 1px solid #555;
+  border-radius: 5px;
+  text-align: center;
+  user-select: none;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: #19ee05;
+  transition: background 1s;
+}
+
+.logo-container img {
+  width: 300px;
+  height: 300px; /* Garante que a imagem seja quadrada */
+  object-fit: cover;
+  border-radius: 50%; /* Deixa a imagem redonda */
+  margin: 20px 0;
+  display: block;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
